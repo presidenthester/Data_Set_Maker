@@ -11,7 +11,7 @@ if not cap.isOpened():
     exit()
 
 # Create a directory to save the frames
-frame_dir = r"R:\\TemporaryFiles\\Desktop\\TestFrames"
+frame_dir = r"R:\\DataFrames"
 os.makedirs(frame_dir, exist_ok=True)
 
 frame_count = 0
